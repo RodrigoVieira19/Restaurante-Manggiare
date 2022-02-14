@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Reservar Mesa</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            @import url('http://fonts.cdnfonts.com/css/italian-breakfast');
+        </style>
+        <link href="http://fonts.cdnfonts.com/css/italian-breakfast" rel="stylesheet">
+        <link rel="stylesheet" href="./css/reserva.css">
+    </head>
+    <body>
+        
+        <section class = "banner">
+            <h2>Manggiare</h2>
+            <div class = "card-container">
+                <div class = "card-img">
+                </div>
+
+                <div class = "card-content">
+                    <h3>Reserva on-line</h3>
+                    <form>
+                        <div class = "formulario">
+                            <select name = "days">
+                                <option value = "day-select">Selecione o Dia</option>
+                                <option value = "sunday">Domingo</option>
+                                <option value = "monday">Segunda-Feira</option>
+                                <option value = "tuesday">Terça-Feira</option>
+                                <option value = "wednesday">Quarta-Feira</option>
+                                <option value = "thursday">Quinta-Feira</option>
+                                <option value = "friday">Sexta-Feira</option>
+                                <option value = "saturday">Sábado</option>
+                            </select>
+
+                            <select name = "hours">
+                                <option value = "hour-select">Horário</option>
+                                <option value = "10">13: 00</option>
+                                <option value = "10">14: 00</option>
+                                <option value = "10">15: 00</option>
+                                <option value = "10">20: 00</option>
+                                <option value = "10">21: 00</option>
+                                <option value = "10">22: 00</option>
+                                <option value = "10">23: 00</option>
+                            </select>
+                        </div>
+
+                        <div class = "formulario">
+                            <input type = "text" placeholder="Nome Completo">
+                            <input type = "text" placeholder="Número de Celular">
+                        </div>
+
+                        <div class = "formulario">
+                            <input type = "number" placeholder="Mesa pra quantos?" min = "1">
+                            <a href="/index.html">Agendar</a>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
