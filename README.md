@@ -4,7 +4,7 @@
 
 Nesse projeto, foi desenvolvido um site responsivo usando Grid Layout e Flexbox.
 
-* [Link do site on-line](https://https://restaurante-manggiare.netlify.app/)
+* [Link do site on-line](https://restaurante-manggiare.netlify.app/)
 
 * Quais tecnologias foram utilizadas? (HTML, CSS, Grid Layout e Flexbox)
 
